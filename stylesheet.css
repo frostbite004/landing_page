@@ -11,7 +11,7 @@ header{
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    padding-left: 32px;
+    padding-left: 48px;
 }
 
 a{
@@ -33,11 +33,12 @@ ul{
     display: flex;
     margin-left: auto;
     gap: 18px;
-    padding-right: 32px;
+    padding-right: 48px;
 }
 
 .article{
     display: flex;
+    flex-direction: row;
     padding: 48px;
     background-color: #1f2937;
 }
@@ -68,6 +69,27 @@ ul{
     color: #e5e7eb;
 }
 
-img{
+img,.load{
     width: 400px;
+    margin-left: auto;
+}
+
+.middle{
+
+}
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 32px;
+}
+
+img,.info{
+    width: 150px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
 }
